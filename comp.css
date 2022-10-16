@@ -26,6 +26,10 @@ display:flex;
 margin:0 25%;
 
 }
+.a_hov :hover
+{
+    animation:   anim_a_nav  7s 1;
+}
 
 nav ul a{
 
@@ -46,7 +50,7 @@ margin-right:70px;
 
 nav ul a:hover  {
 
-animation:   anim_a_nav  7s 1;
+
     color:wheat
 }
 .nav_text
@@ -67,55 +71,84 @@ a:hover {
     color:wheat
 }
 
-.sub_list1 
+
+
+
+
+.main-list:hover .sub-list
 {
 
-
-    display:block;
-    font-size:20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: black;
-    border:2px double white;
-border-radius: 15px;
-    width:120%;
-    color:black;
-margin-right:-40%;
-margin-top:15%;
-display:none;
+display:block;
 position: relative;
 
 }
-.main_list1:hover .sub_list1 {
-
-display:block;
-
-
-}
-.main_and_sub_list1:hover .sub_sub_list1
+.sub-list
 {
-    display: block;
+    display:block;
+    background-color:rgb(10, 5, 5);
+    width:120%;
+
+    border-radius:30px;
+    border:2px solid white;
+    position:absolute;
+    margin-right:-2px;
+    top:15px;
+    z-index:10;
+    display:none;
+    
+   
+}
+.sub_sub_for_third_drop_down
+{
+    display:block;
+    background-color:rgb(10, 5, 5);
+    width:120%;
+
+    border-radius:30px;
+
+    position:absolute;
+    margin-left:-22px;
+    top:15px;
+    z-index:10;
+    display:none;
+    border:2px solid white;
+   
+    
+    
 }
 
-.sub_sub_list1{
+.third_dropdown:hover .sub_sub_for_third_drop_down
+{
 
-
-    font-size:20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: black;
-    border:2px double white;
-border-radius: 15px;
-    width:100%;
-    color:black;
-margin-right:60%;
-margin-top:15%;
-height: fit-content;
 display:block;
-position: absolute;
-display: none;
+position: relative;
 
 
 }
+.second_dropdown:hover .sub-sub2{
+    display:block;
+}
+.sub-sub2
+{
+    display:block;
+    background-color:rgb(10, 5, 5);
+    width:120%;
 
+    border-radius:30px;
+    border:2px solid white;
+   position: absolute;
+    margin-left:-280px;
+    left:-15px;
+    top:15px;
+    z-index:10;
+    display:none;
+
+}
+
+.main-list{
+
+
+}
  @keyframes anim_a_nav 
  {
 
@@ -145,4 +178,84 @@ font-size:20px
 
  }
 
+
+ /*@keyframes anim_border 
+ {
+
+0%
+{
+border-top: white;
+
+border-right:transparent ;
+
+border-bottom:transparent ;
+border-left:transparent ;
+ color:white
+
+
+
+}
+
+
+
+50%{
+    border-top: transparent;
+    
+    border-right:white ;
+    
+    border-bottom:transparent ;
+    border-left:transparent ;
+    color:black
+    
+
+}
+
+
+100%{
+    border-top: transparent;
+    
+    border-right:transparent ;
+    
+    border-bottom:white ;
+    border-left:white ;
+    
+
+}
+
+ }
+
+
+*/
+@keyframes anim_a_nav 
+{
+0%
+{
+font-size:20px;
+
+
+}
+
+
+50%{
+
+font-size: 30px;
+background-color: white;
+}
+
+
+
+
+
+100%{
+font-size:20px
+
+}
+}
+
+
+
+
+
+
+}
  /* End navbar css  */
