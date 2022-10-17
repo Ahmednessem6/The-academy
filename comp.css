@@ -4,7 +4,7 @@
 body{
     
     width:100%;
-over-flow:scroll
+overflow-x:hidden;
 }
 
 
@@ -345,14 +345,17 @@ color:white;
 }
 a:hover  button{
 
-  box-shadow:10px 10px 10px 10px red inset;
+  box-shadow:20px 20px 10px 5px white inset;
+
+ 
 }
-.About a button{
+.About  button{
 
     background-color: transparent; 
     box-shadow:10px 10px 10px 0px white inset;
     margin-left:5%;
     height:60px;
+   
    color:black;
    font-weight:800;
    font-size:larger;
