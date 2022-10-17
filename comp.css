@@ -2,7 +2,9 @@
 
 
 body{
-    overflow-x:hidden
+    
+    width:100%;
+over-flow:scroll
 }
 
 
@@ -276,15 +278,62 @@ font-size:20px
     
 
 }
+.Front-End-text
+{
+
+font-size:40px;
+font-family:fantasty;
+font-weight:400;
+
+text-align:center;
+color:white;
+
+}
+.Back-End-text{
+    font-size:40px;
+font-family:fantasty;
+font-weight:400;
+
+text-align:center;
+color:white;
+}
+.Frameworks-text
+{font-size:40px;
+    font-family:fantasty;
+    font-weight:400;
+    
+    text-align:center;
+    color:white;}
+.card a
+{
+   text-decoration:none;
+   
+   color:white;
+   margin-bottom:15px;
+   border-radius:40px;
+   background-color:gray;
+   box-shadow: 10px 0px 0px px inset white;
+   animation:anim_anchor_of_courses_text 7s infinite
+}
+
+ .card a:hover h1
+{
+
+    background-color: red;
+    border-radius:40px
+    
+}
+
 @keyframes anim_courses_text
 {
 
     0%
     {
+        color:transparent;
         background-color: transparent;
     }
 50%{
-
+color:black;
 background-color: #fff;
 }
 
@@ -294,9 +343,45 @@ background-color: #fff;
 
 100%{
     background-color: transparent;
+color:transparent
+}
+}
+
+@keyframes anim_anchor_of_courses_text
+{
+
+    0%
+    {
+        color: white;
+        font-size:55px;
+        font-weight:900;
+        padding:10px;
+        font-family:fantasty
+    }
+50%{
+
+color:red;
+font-size:70px;
+font-weight:1600;
+padding:20px;
+font-family:fantasty
+}
+
+
+
+
+
+
+100%{
+    font-size:55px;
+    font-weight:900;
+    padding:10px;
+    font-family:fantasty
 
 }
+   
 }
+
 
 
 
