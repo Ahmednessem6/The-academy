@@ -263,7 +263,7 @@ font-size:20px
  /* End navbar css  */
 
 
- /* Start courses text and front-end css  */
+ /* Start courses text and front-end courses css  */
 
 
 .coursestext
@@ -313,7 +313,7 @@ color:white;
    border-radius:40px;
    background-color:gray;
    box-shadow: 10px 0px 0px px inset white;
-   animation:anim_anchor_of_courses_text 7s infinite
+   animation:anim_anchor_of_courses 7s infinite
 }
 
  .card a:hover h1
@@ -323,7 +323,66 @@ color:white;
     border-radius:40px
     
 }
+.About{
 
+
+
+    box-shadow:5px 5px 5px 0px white inset;
+    margin-right:40px;
+    width:80%;
+    margin-left:50px;
+}
+.About h3 
+{
+    padding-right:30px;
+    padding-top:30px;
+    padding-left:30px;
+  
+}
+.About p
+{
+    padding:10px; 
+}
+a:hover  button{
+
+  box-shadow:10px 10px 10px 10px red inset;
+}
+.About a button{
+
+    background-color: transparent; 
+    box-shadow:10px 10px 10px 0px white inset;
+    margin-left:5%;
+    height:60px;
+   color:black;
+   font-weight:800;
+   font-size:larger;
+
+}
+
+@keyframes anim_About_text{
+
+0%{
+
+color:gray;
+padding:10px;
+
+}
+
+50%
+{
+
+color:red;
+padding:20px;
+
+}
+
+100%
+{
+color:gray;
+padding:10px
+
+}
+}
 @keyframes anim_courses_text
 {
 
@@ -347,7 +406,7 @@ color:transparent
 }
 }
 
-@keyframes anim_anchor_of_courses_text
+@keyframes anim_anchor_of_courses
 {
 
     0%
@@ -355,7 +414,7 @@ color:transparent
         color: white;
         font-size:55px;
         font-weight:900;
-        padding:10px;
+      
         font-family:fantasty
     }
 50%{
@@ -363,7 +422,7 @@ color:transparent
 color:red;
 font-size:70px;
 font-weight:1600;
-padding:20px;
+
 font-family:fantasty
 }
 
@@ -375,7 +434,7 @@ font-family:fantasty
 100%{
     font-size:55px;
     font-weight:900;
-    padding:10px;
+   
     font-family:fantasty
 
 }
