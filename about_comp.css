@@ -208,6 +208,76 @@ font-size:20px
      height:300px;
 }
 
+.div_of_info h1{
 
+
+}
 
 /*  End div of info*/
+
+
+
+/*  Start div  of images*/
+.Images
+{
+
+
+
+  color:rgba(0, 0, 0, 0.733);
+transform:ScaleX(1.4);
+     height:200px;
+     margin-top:100px;
+     font-family:fantasy;
+ font-weight:1000;
+ font-size:larger;
+ border-radius:30px;
+
+}
+
+.Images img{
+
+
+    margin:0px 20px;
+}
+
+
+/*  End div of images*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   Start animations*/
+
+@keyframes animaiton_info_text {
+    0%{
+color:white
+    }
+
+    50%{
+
+color:rgba(245, 222, 179, 0.767);
+
+text-decoration:underline wheat 8px ;
+
+    }
+
+    100%
+    {
+
+color:white
+
+    }
+}
+
+
+
+/*   End animationss*/
