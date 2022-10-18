@@ -443,6 +443,19 @@ font-family:fantasty
 }
    
 }
+footer{
+
+
+   
+    margin-top:600px;
+    box-shadow:10px 10px 10px 10px  wheat;
+    margin-left:auto;
+    text-align:center;
+     margin-right:auto;
+     color:white;
+     height:400px;
+     position:relative
+}
 
 
 

@@ -246,6 +246,35 @@ transform:ScaleX(1.4);
 
 
 
+/*  Start div  of contact*/
+.contact
+{
+
+
+
+  color:rgba(0, 0, 0, 0.733);
+transform:ScaleX(1.4);
+     height:200px;
+     margin-top:100px;
+     font-family:fantasy;
+ font-weight:1000;
+ font-size:larger;
+ border-radius:30px;
+
+}
+
+.Images img{
+
+
+    margin:0px 20px;
+}
+
+
+/*  End div of contact*/
+
+
+
+
 
 
 
