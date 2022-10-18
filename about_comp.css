@@ -1,0 +1,213 @@
+/* start nav*/
+
+
+
+
+    
+    
+ body{
+        
+    width:100%;
+overflow-x:hidden;
+
+
+}
+
+
+
+nav {
+ 
+    border-radius:30px;
+    height:100px;
+    width:95%;
+  direction: rtl;
+   margin-left:2.5%;
+   margin-top:5px;
+   border :1px solid white;
+   box-shadow: 5px 5px 2px 0px black inset,5px 5px 2px 0px white inset;
+
+}
+
+nav ul{
+
+display:flex;
+margin:0 25%;
+
+}
+.a_hov :hover
+{
+    animation:   anim_a_nav  7s 1;
+}
+
+nav ul a{
+
+color:white;
+font-size:20px;
+box-shadow:5px 5px 5px 0 #000000 inset ;
+padding-right:20px;
+padding-left: 20px;
+text-decoration: none;
+
+}
+
+nav li{
+margin-right:70px;
+ margin-top:30px;
+    list-style: none;
+}
+
+nav ul a:hover  {
+
+
+    color:wheat
+}
+.nav_text
+{
+font-size:30px;
+color:white;
+box-shadow: 4px 4px 20px  white inset;
+position: absolute;
+margin-top:20px;
+margin-right:15px;
+padding-right: 10px;
+padding-left: 10px;
+text-decoration: none;
+font-family: fantasy;
+}
+a:hover {
+
+    color:wheat
+}
+
+
+
+
+
+.main-list:hover .sub-list
+{
+
+display:block;
+position: relative;
+
+}
+.sub-list
+{
+    display:block;
+    background-color:rgb(10, 5, 5);
+    width:120%;
+
+    border-radius:30px;
+    border:2px solid white;
+    position:absolute;
+    margin-right:-2px;
+    top:15px;
+    z-index:10;
+    display:none;
+    
+   
+}
+.sub_sub_for_third_drop_down
+{
+    display:block;
+    background-color:rgb(10, 5, 5);
+    width:120%;
+
+    border-radius:30px;
+
+    position:absolute;
+    margin-left:-22px;
+    top:15px;
+    z-index:10;
+    display:none;
+    border:2px solid white;
+   
+    
+    
+}
+
+.third_dropdown:hover .sub_sub_for_third_drop_down
+{
+
+display:block;
+position: relative;
+
+
+}
+.second_dropdown:hover .sub-sub2{
+    display:block;
+}
+.sub-sub2
+{
+    display:block;
+    background-color:rgb(10, 5, 5);
+    width:120%;
+
+    border-radius:30px;
+    border:2px solid white;
+   position: absolute;
+    margin-left:-280px;
+    left:-15px;
+    top:15px;
+    z-index:10;
+    display:none;
+
+}
+
+.main-list{
+
+
+}
+ @keyframes anim_a_nav 
+ {
+
+0%
+{
+font-size:20px;
+
+
+}
+
+
+50%{
+
+font-size: 30px;
+background-color: white;
+}
+
+
+
+
+
+100%{
+font-size:20px
+
+}
+ }
+
+
+
+
+
+
+
+
+
+/* End nav*/
+
+
+/*  Start div  of info*/
+.div_of_info
+{
+
+
+    box-shadow:7px 7px 10px 7px  black inset;
+     color:white ;
+     direction:rtl;
+     border-inline:3px  solid wheat ;
+     border-top:0.8px solid wheat;
+     height:300px;
+}
+
+
+
+/*  End div of info*/
